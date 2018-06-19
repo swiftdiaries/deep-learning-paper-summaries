@@ -1,0 +1,8 @@
+main.tex
+OriginalPapers
+*.fdb_latexmk
+*.fls
+*.aux
+*.log
+*.out
+*.synctex.gz
