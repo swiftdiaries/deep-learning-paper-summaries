@@ -15,3 +15,5 @@ https://github.com/terryum/awesome-deep-learning-papers
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/VGG/VGG.pdf) Very deep convolutional networks for large-scale image recognition (2014), K. Simonyan and A. Zisserman
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/GoogLeNet/GoogLeNet.pdf) Going deeper with convolutions (2015), C. Szegedy et al.
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/SpatialTransformerNetworks/SpatialTransformerNetworks.pdf) Spatial transformer network (2015), M. Jaderberg et al.
