@@ -1,6 +1,9 @@
+
 Summarize some of the papers from
 
 https://github.com/terryum/awesome-deep-learning-papers
+
+## Convolutional Neural Network Models
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/AlexNet/AlexNet.pdf) ImageNet classification with deep convolutional neural networks (2012), A. Krizhevsky et al.
 
@@ -17,3 +20,5 @@ https://github.com/terryum/awesome-deep-learning-papers
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/GoogLeNet/GoogLeNet.pdf) Going deeper with convolutions (2015), C. Szegedy et al.
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/SpatialTransformerNetworks/SpatialTransformerNetworks.pdf) Spatial transformer network (2015), M. Jaderberg et al.
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/ResNet/ResNet.pdf) Deep residual learning for image recognition (2016), K. He et al.
