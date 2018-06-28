@@ -1,5 +1,4 @@
-
-Summarize some of the papers from
+I'm reading deep learning papers and summarizing them here
 
 https://github.com/terryum/awesome-deep-learning-papers
 
@@ -26,3 +25,5 @@ https://github.com/terryum/awesome-deep-learning-papers
 ## Image: Segmentation / Object Detection
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/FeaturesForSceneLabeling/FeaturesForSceneLabeling.pdf) Learning hierarchical features for scene labeling (2013), C. Farabet et al.
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/DeepLab/DeepLab.pdf) Semantic image segmentation with deep convolutional nets and fully connected CRFs, L. Chen et al.
