@@ -22,3 +22,7 @@ https://github.com/terryum/awesome-deep-learning-papers
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/SpatialTransformerNetworks/SpatialTransformerNetworks.pdf) Spatial transformer network (2015), M. Jaderberg et al.
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/ResNet/ResNet.pdf) Deep residual learning for image recognition (2016), K. He et al.
+
+## Image: Segmentation / Object Detection
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/FeaturesForSceneLabeling/FeaturesForSceneLabeling.pdf) Learning hierarchical features for scene labeling (2013), C. Farabet et al.
