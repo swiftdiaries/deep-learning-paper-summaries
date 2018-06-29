@@ -28,3 +28,5 @@ https://github.com/terryum/awesome-deep-learning-papers
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/FeaturesForSceneLabeling/FeaturesForSceneLabeling.pdf) Learning hierarchical features for scene labeling (2013), C. Farabet et al.
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/DeepLab/DeepLab.pdf) Semantic image segmentation with deep convolutional nets and fully connected CRFs, L. Chen et al.
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/RCNN/RCNN.pdf) Rich feature hierarchies for accurate object detection and semantic segmentation (2014), R. Girshick et al.
