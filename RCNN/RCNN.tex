@@ -88,18 +88,18 @@ colors.
 For the other units, we take this approach. We feed lots of regions through
 them and see which regions each unit fires for. For each unit, we examine
 the regions that produced the strongest activation. For pooling layer 5,
-which we call pool_5, we found units that detect faces, red blobs, dogs/holes,
+which we call $\textrm{pool}_5$, we found units that detect faces, red blobs, dogs/holes,
 text on a sign, and lens flare.
 
 Fine-tuning boosts mAP by 8\%. Most of this gain comes from the fully connected
-layers, not the pool_5 layer, which indicates that CNNs pretrained on ImageNet
+layers, not the $\textrm{pool}_5$ layer, which indicates that CNNs pretrained on ImageNet
 generalize well to other tasks.
 
 We measure how often the mistake was caused by poor localization,
 confusion with a similar category, confusion with non-similar category, or
 background. See supplementary materials.
 
-We also trained a linear regression model that uses the pool_5 features to
+We also trained a linear regression model that uses the $\textrm{pool}_5$ features to
 predict a new bounding box and we found it boosts mAP by like 5\%.
 
 \section{Semantic Segmentation}
