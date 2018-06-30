@@ -30,3 +30,7 @@ https://github.com/terryum/awesome-deep-learning-papers
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/DeepLab/DeepLab.pdf) Semantic image segmentation with deep convolutional nets and fully connected CRFs, L. Chen et al.
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/RCNN/RCNN.pdf) Rich feature hierarchies for accurate object detection and semantic segmentation (2014), R. Girshick et al.
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/SpatialPyramidPooling/SpatialPyramidPooling.pdf) Spatial pyramid pooling in deep convolutional networks for visual recognition (2014), K. He et al.
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/FastRCNN/FastRCNN.pdf) Fast R-CNN (2015), R. Girshick
