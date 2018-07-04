@@ -11,7 +11,7 @@ https://github.com/terryum/awesome-deep-learning-papers
 
  [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/Maxout/Maxout.pdf) Maxout networks (2013), I. Goodfellow et al.
 
-[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/OverFeat/OverFeat.pdf) OverFeat: Integrated recognition, localization and detection using convolutional networks (2013), P. Sermanet et al. 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/OverFeat/OverFeat.pdf) OverFeat: Integrated recognition, localization and detection using convolutional networks (2013), P. Sermanet et al.
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/DelvingIntoConvolutionalNets/DelvingIntoConvolutionalNets.pdf) Return of the devil in the details: delving deep into convolutional nets (2014), K. Chatfield et al.
 
@@ -40,3 +40,5 @@ https://github.com/terryum/awesome-deep-learning-papers
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/FCN/FCN.pdf) Fully convolutional networks for semantic segmentation (2015), J. Long et al.
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/YOLO/YOLO.pdf) You only look once: Unified, real-time object detection (2016), J. Redmon et al.
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/YOLO9000/YOLO9000.pdf) YOLO9000: better, faster, stronger (2017), J. Redmon et al.
