@@ -38,3 +38,5 @@ https://github.com/terryum/awesome-deep-learning-papers
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/FasterRCNN/FasterRCNN.pdf) Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (2015), S. Ren et al.
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/FCN/FCN.pdf) Fully convolutional networks for semantic segmentation (2015), J. Long et al.
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/YOLO/YOLO.pdf) You only look once: Unified, real-time object detection (2016), J. Redmon et al.
