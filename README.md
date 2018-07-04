@@ -36,3 +36,5 @@ https://github.com/terryum/awesome-deep-learning-papers
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/FastRCNN/FastRCNN.pdf) Fast R-CNN (2015), R. Girshick
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/FasterRCNN/FasterRCNN.pdf) Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (2015), S. Ren et al.
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/FCN/FCN.pdf) Fully convolutional networks for semantic segmentation (2015), J. Long et al.
