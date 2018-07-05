@@ -25,6 +25,9 @@ https://github.com/terryum/awesome-deep-learning-papers
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/ResNet2/ResNet2.pdf) Identity Mappings in Deep Residual Networks (2016), K. He et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/InceptionV4/InceptionV4.pdf) Inception-v4, inception-resnet and the impact of residual connections on learning (2016), C. Szegedy et al.
+
+
 ## Image: Segmentation / Object Detection
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/FeaturesForSceneLabeling/FeaturesForSceneLabeling.pdf) Learning hierarchical features for scene labeling (2013), C. Farabet et al.
