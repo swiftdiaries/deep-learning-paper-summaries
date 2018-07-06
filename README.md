@@ -49,3 +49,16 @@ https://github.com/terryum/awesome-deep-learning-papers
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/YOLO/YOLO.pdf) You only look once: Unified, real-time object detection (2016), J. Redmon et al.
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/YOLO9000/YOLO9000.pdf) YOLO9000: better, faster, stronger (2017), J. Redmon et al.
+
+# Other Interesting Papers (might read/summarize them later)
+[RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
+
+[SSD](https://arxiv.org/pdf/1512.02325.pdf)
+
+[Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf%20http://arxiv.org/abs/1703.06870.pdf)
+
+[Speed Accuracy Tradeoff](http://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_SpeedAccuracy_Trade-Offs_for_CVPR_2017_paper.pdf)
+
+[MobileNet](https://arxiv.org/pdf/1704.04861.pdf)
+
+[Deep learning in medical analysis](https://arxiv.org/pdf/1702.05747.pdf)
