@@ -1,7 +1,6 @@
 I'm reading deep learning papers and summarizing them in this repo.
 
-I select papers from these repos:
-https://github.com/terryum/awesome-deep-learning-papers
+I'm picking papers from this repo: https://github.com/terryum/awesome-deep-learning-papers
 
 ## Convolutional Neural Network Models
 
