@@ -50,6 +50,9 @@ https://github.com/terryum/awesome-deep-learning-papers
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/YOLO9000/YOLO9000.pdf) YOLO9000: better, faster, stronger (2017), J. Redmon et al.
 
+# Image / Video / Etc
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/3DCNN/3DCNN.pdf) 3D convolutional neural networks for human action recognition (2013), S. Ji et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
