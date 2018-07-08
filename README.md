@@ -56,6 +56,8 @@ I'm picking papers from this repo: https://github.com/terryum/awesome-deep-learn
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/VideoClassification/VideoClassification.pdf) Large-scale video classification with convolutional neural networks (2014), A. Karpathy et al. 
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/DeepFace/DeepFace.pdf) DeepFace: Closing the gap to human-level performance in face verification (2014), Y. Taigman et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
