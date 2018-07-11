@@ -54,9 +54,11 @@ I'm picking papers from this repo: https://github.com/terryum/awesome-deep-learn
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/TwoStream/TwoStream.pdf) Two-stream convolutional networks for action recognition in videos (2014), K. Simonyan et al.
 
-[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/VideoClassification/VideoClassification.pdf) Large-scale video classification with convolutional neural networks (2014), A. Karpathy et al. 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/VideoClassification/VideoClassification.pdf) Large-scale video classification with convolutional neural networks (2014), A. Karpathy et al.
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/DeepFace/DeepFace.pdf) DeepFace: Closing the gap to human-level performance in face verification (2014), Y. Taigman et al.
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/VQA/VQA.pdf) VQA: Visual question answering (2015), S. Antol et al.
 
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
