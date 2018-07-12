@@ -79,10 +79,10 @@ $$
 o_t = \sigma(W_{ox} x_t + W_{om} m_{t-1})
 $$
 $$
-c_t = f_t \cdot c_{t-1} + i_t \cdot \tanh(W_{cx} x_t + W_{cm} m_{t-1})
+c_t = f_t \odot c_{t-1} + i_t \odot \tanh(W_{cx} x_t + W_{cm} m_{t-1})
 $$
 $$
-m_t = o_t \cdot c_t
+m_t = o_t \odot c_t
 $$
 $$
 p_{t+1} = \textrm{Softmax}(m_t)

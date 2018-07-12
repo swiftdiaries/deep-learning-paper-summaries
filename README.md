@@ -64,6 +64,8 @@ I'm picking papers from this repo: https://github.com/terryum/awesome-deep-learn
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/NIC/NIC.pdf) Show and tell: A neural image caption generator (2015), O. Vinyals et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/ShowAttendTell/ShowAttendTell.pdf) Show, attend and tell: Neural image caption generation with visual attention (2015), K. Xu et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 

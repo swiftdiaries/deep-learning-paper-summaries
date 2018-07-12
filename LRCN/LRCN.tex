@@ -66,10 +66,10 @@ $$
 g_t = \phi(W_{xc} x_t + W_{hc} h_{t-1} + b_c)
 $$
 $$
-c_t = f_t \cdot c_{t-1} + i_t \cdot g_t
+c_t = f_t \odot c_{t-1} + i_t \odot g_t
 $$
 $$
-h_t = o_t \cdot \phi(c_t)
+h_t = o_t \odot \phi(c_t)
 $$
 
 where $h_t$ is the hidden unit, $c_t$ is the memory cell, $i_t$ is the input
