@@ -2,6 +2,8 @@ I'm reading deep learning papers and summarizing them in this repo.
 
 I'm picking papers from this repo: https://github.com/terryum/awesome-deep-learning-papers
 
+The summaries assume you have read this book: http://www.deeplearningbook.org/
+
 ## Convolutional Neural Network Models
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/AlexNet/AlexNet.pdf) ImageNet classification with deep convolutional neural networks (2012), A. Krizhevsky et al.
