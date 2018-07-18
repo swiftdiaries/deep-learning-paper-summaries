@@ -70,6 +70,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/VisualSemanticAlignment/VisualSemanticAlignment.pdf) Deep visual-semantic alignments for generating image descriptions (2015), A. Karpathy and L. Fei-Fei
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/NeuralStyle/NeuralStyle.pdf) A neural algorithm of artistic style (2015), L. Gatys et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
