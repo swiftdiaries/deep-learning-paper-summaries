@@ -72,6 +72,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/NeuralStyle/NeuralStyle.pdf) A neural algorithm of artistic style (2015), L. Gatys et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/ImageSuperResolution/ImageSuperResolution.pdf) Image Super-Resolution Using Deep Convolutional Networks (2016), C. Dong et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
