@@ -78,6 +78,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/RNNSequences/RNNSequences.pdf) Generating sequences with recurrent neural networks (2013), A. Graves.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/SentimentTreebank/SentimentTreebank.pdf) Recursive deep models for semantic compositionality over a sentiment treebank (2013), R. Socher et al.
+
 
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
