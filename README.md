@@ -74,6 +74,11 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/ImageSuperResolution/ImageSuperResolution.pdf) Image Super-Resolution Using Deep Convolutional Networks (2016), C. Dong et al.
 
+# Natural Language Processing / RNNs
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/RNNSequences/RNNSequences.pdf) Generating sequences with recurrent neural networks (2013), A. Graves.
+
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
