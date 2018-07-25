@@ -80,7 +80,7 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/SentimentTreebank/SentimentTreebank.pdf) Recursive deep models for semantic compositionality over a sentiment treebank (2013), R. Socher et al.
 
-[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/SkipgramCBOW/SkipgramCBOW.pdf) Recursive deep models for semantic compositionality over a sentiment treebank (2013), R. Socher et al.
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/SkipgramCBOW/SkipgramCBOW.pdf) Efficient estimation of word representations in vector space (2013), T. Mikolov et al.
 
 
 # Other Interesting Papers (might read/summarize them later)
