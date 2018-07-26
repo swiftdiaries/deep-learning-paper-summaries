@@ -82,6 +82,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/SkipgramCBOW/SkipgramCBOW.pdf) Efficient estimation of word representations in vector space (2013), T. Mikolov et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/Skipgram2/Skipgram2.pdf) Distributed representations of words and phrases and their compositionality (2013), T. Mikolov et al.
+
 
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
