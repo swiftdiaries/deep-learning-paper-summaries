@@ -86,6 +86,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/ParagraphVector/ParagraphVector.pdf) Distributed representations of sentences and documents (2014), Q. Le and T. Mikolov
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/Glove/Glove.pdf) Glove: Global vectors for word representation (2014), J. Pennington et al.
+
 
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
