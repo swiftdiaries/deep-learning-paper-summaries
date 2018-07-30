@@ -1,0 +1,119 @@
+\documentclass[a4paper]{article}
+
+\usepackage{fullpage} % Package to use full page
+\usepackage{parskip} % Package to tweak paragraph skipping
+\usepackage{amssymb}
+\usepackage{tikz} % Package for drawing
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\title{Convolutional Neural Networks for Sentence Classification}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Citation}
+Kim, Yoon. "Convolutional neural networks for sentence classification." arXiv preprint arXiv:1408.5882 (2014).
+
+\begin{verbatim}
+https://arxiv.org/pdf/1408.5882.pdf
+\end{verbatim}
+
+\section{Abstract}
+We stack a convolutional layer, max pooling, dense layer, and softmax on
+word vectors to get state of the art performance on 4 of the 7 NLP tasks
+that we tried.
+
+\section{Introduction}
+Word vectors turn $1$-of-$V$ encoded words into a smaller dimensional vector
+where semantically similar vectors are near (measured in Euclidean or cosine
+distance) each other. We train a Convolutional Neural Network (CNN) on the
+word2vec vectors and get great performance on NLP tasks.
+
+\section{Model}
+Take a sentence with $n$ words (pad the sentence if it's not long enough)
+and concatenate the word vectors together.
+
+$$
+\mathbf{x}_{1:n} = \mathbf{x}_1 \oplus \mathbf{x}_2 \oplus ... \oplus
+\mathbf{x}_n
+$$
+
+We can apply a convolution filter $\mathbf{w}$ over a window of $h$ words to get
+a feature. That is:
+
+$$
+c_i = f(\mathbf{w} \cdot \mathbf{x}_{i:i+h-1} + b)
+$$
+
+where $f$ is $\tanh$. We can slide the filter over the input sentence to get a
+feature map:
+
+$$
+\mathbf{c} = [c_1, c_2, ..., c_{n-h+1}]
+$$
+
+We can then max-pool to get $\hat{c} = \max({\mathbf{c}})$.
+
+In practice, we use many filters, so we get many feature maps. This goes
+through max-pooling to get one feature vector for the sentence. This
+feature vector goes through a fully-connected (i.e. dense) layer and
+then gets classified with a softmax.
+
+We also consider a two channel system where each word is represented by two
+word vectors - one that we propagate the gradient back through and another
+that we leave static.
+
+We regularize with dropout on the dense layer. Without dropout, the dense
+layer is $y = \mathbf{w} \cdot \mathbf{z} + b$ for $\mathbf{z} = [\hat{c}_1,
+..., \hat{c}_m]$ (where $m$ is the number of filters in the conv layer).
+With dropout, the equation becomes:
+
+$$
+y = \mathbf{w} \cdot (\mathbf{z} \otimes \mathbf{r}) + b
+$$
+
+where $\otimes$ is element-wise product and $\mathbf{r}$ is a mask where
+element is sampled from a Bernoulli mask with probability $p$. At test time,
+we set weights to $\hat{\mathbf{w}} = p \mathbf{w}$. Also, during
+backpropagation, we clip gradients to have L2 norm of at most $s$.
+
+\section{Datasets and Experimental Setup}
+We use movie-reviews, two versions of Stanford Sentiment Treebank,
+Subjectivity dataset, TREC (question type classification), customer product
+reviews (sentiment analysis), and MPQA (opinion polarity detection).
+
+We set $h$ to 3, 4, or 5. We set $p = 0.5$, $s = 3$, $m = 100$. We train
+with Adadelta.
+
+Our word vectors are word2vec (i.e. vectors produced by Skipgram model on
+Google News dataset). We consider a model where we don't initialize with
+word2vec vectors (CNN-rand), we use word2vec and keep them static (CNN-static),
+where we fine-tune word2vec (CNN-non-static), and where we keep one set of
+static word2vec and another non-static (CNN-multichannel).
+
+\section{Results and Discussion}
+CNN-rand does poorly. CNN-static does quite well. CNN-non-static does even
+better. CNN-multichannel gives mixed results, so maybe it would be better
+to just add a few more dimensions to the word2vec embeddings and just train
+those instead of using the two channel approach that we did. Fine-tuning is
+essential because it can adjust the word vectors for the task at hand. For
+example, in word2vec, "bad" and "good" are near each other, but for sentiment
+analysis, they should be very far apart.
+
+Dropout gave 2-4\% accuracy boost. When initializing words without word2vec,
+we just sample from a uniform distribution. Adadelta gave similar results to
+Adagrad, but needed fewer epochs.
+
+\section{Conclusion}
+If you stack a conv, max-pooling, dense, and softmax layer on word2vec, you
+get a pretty powerful sentence classifier.
+
+
+
+
+
+
+\end{document}
