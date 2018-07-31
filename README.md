@@ -90,6 +90,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/SentenceClassification/SentenceClassification.pdf) Convolutional neural networks for sentence classification (2014), Y. Kim
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/CNNSentenceModel/CNNSentenceModel.pdf) A convolutional neural network for modeling sentences (2014), N. Kalchbrenner et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
