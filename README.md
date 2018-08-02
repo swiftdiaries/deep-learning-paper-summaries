@@ -94,6 +94,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/EncoderDecoder/EncoderDecoder.pdf) Learning phrase representations using RNN encoder-decoder for statistical machine translation (2014), K. Cho et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/Seq2Seq/Seq2Seq.pdf) Sequence to sequence learning with neural networks (2014), I. Sutskever et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
