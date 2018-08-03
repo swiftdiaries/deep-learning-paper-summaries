@@ -96,6 +96,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/Seq2Seq/Seq2Seq.pdf) Sequence to sequence learning with neural networks (2014), I. Sutskever et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/NMT/NMT.pdf) Neural machine translation by jointly learning to align and translate (2014), D. Bahdanau et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
