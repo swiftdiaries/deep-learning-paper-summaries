@@ -98,6 +98,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/NMT/NMT.pdf) Neural machine translation by jointly learning to align and translate (2014), D. Bahdanau et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/NeuralTuringMachine/NeuralTuringMachine.pdf) Neural turing machines (2014), A. Graves et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
