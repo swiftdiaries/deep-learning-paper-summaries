@@ -104,6 +104,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/CRFAsRNN/CRFAsRNN.pdf) Conditional random fields as recurrent neural networks (2015), S. Zheng and S. Jayasumana.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/NeuralMachineTranslationAttention/NeuralMachineTranslationAttention.pdf) Effective approaches to attention-based neural machine translation (2015), M. Luong et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
