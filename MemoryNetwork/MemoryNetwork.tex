@@ -120,8 +120,8 @@ $$
 For all $\phi$, we extend the embedding with three binary element indicating
 whether $x$ is older than $y$, $x$ is older than $y'$ and $y$ is older than
 $y'$. If $s_{O_t}(x, y, y') > 0$, the model prefers $y$ (otherwise it prefers
-$y'$). So, when instead of doing an argmax to pick $o_1$ and $o_2$, we loop
-over the memories and keep track of which memory wins the $s_{O_t}$.
+$y'$). So, instead of doing an argmax to pick $o_1$ and $o_2$, we loop
+over the memories and keep running track of which memory wins the $s_{O_t}$.
 
 To ensure our model can handle new words, we modify our feature vector so that
 it also indicates the left and right context word that the input word occurs
@@ -129,7 +129,7 @@ with. At train time, we drop the input word with probability $d\%$ so the
 model can learn how to use the context words if the input word is missing.
 
 When using word embeddings, we can't check if two words are equal because
-dimensionality is low, so we sum the bag of words matching score and embdding
+dimensionality is low, so we sum the bag of words matching score and embedding
 score with mixing weight $\lambda$.
 
 $$
@@ -143,7 +143,7 @@ both $x$ and $y$.
 Classical QA answers questions by searching a knowledge base. For memory
 networks, we don't separate knowledge base building and question answering.
 We do both at once. We submitted our work a little before the Neural Turing
-Machine by Graves. Our storage is larger than in SMT. We also focus on QA
+Machine by Graves. Our storage is larger than in NTM. We also focus on QA
 tasks while Graves looks at copy, sort, etc. RNNSearch uses an attention
 mechanism to do neural machine translation. Graves also used RNNs for
 handwriting synthesis.
