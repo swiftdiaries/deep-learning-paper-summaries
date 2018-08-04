@@ -100,6 +100,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/NeuralTuringMachine/NeuralTuringMachine.pdf) Neural turing machines (2014), A. Graves et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/MemoryNetwork/MemoryNetwork.pdf) Memory networks (2014), J. Weston et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
