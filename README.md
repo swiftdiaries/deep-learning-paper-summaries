@@ -110,6 +110,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/LimitsOfLanguageModeling/LimitsOfLanguageModeling.pdf) Exploring the limits of language modeling (2016), R. Jozefowicz et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/NamedEntityRecognition/NamedEntityRecognition.pdf) Neural Architectures for Named Entity Recognition (2016), G. Lample et al. 
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
