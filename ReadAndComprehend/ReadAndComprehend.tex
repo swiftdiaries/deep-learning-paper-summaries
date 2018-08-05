@@ -29,18 +29,19 @@ models.
 
 \section{Introduction}
 There are few reading comprehension datasets out there, so most people don't
-really solve it with supervised learning. Some people have generated synthetic
-data by simulating people, objects, and places interacting together and
-generating sentences. Models that do well on this synthetic data don't really
-scale to other data. We find that combining CNN and Dailymail news articles with
-their summaries and using named entity recognition, we can generate
+really solve reading comprehension with supervised learning. Some people have
+generated synthetic data by simulating people, objects, and places interacting
+together and generating sentences based on these interactions. Models that do
+ well on this synthetic data don't really
+scale to other data. We find that combining CNN and Daily Mail news articles
+with their summaries and using named entity recognition, we can generate
 a huge dataset of Cloze questions. We make a bunch of baseline models.
 
 \section{Supervised training data for reading comprehension}
 Reading comprehension models aim to compute $p(a|d, q)$ where $d$ is a
 context document, $q$ is a question, and $a$ is an answer. We a create a
 dataset for this problem. We take 93K articles from CNN and 220K articles
-from Dailymail. Each article comes with some bullet point summaries. We
+from Daily Mail. Each article comes with a bullet point summary. We
 do named entity recognition on the summaries and select one entity in a summary
 as "X" - this is the Cloze question. We then replace every entity with a
 random ID (e.g. Republican may be replaced with "ent12", "Democrat" with
@@ -48,7 +49,7 @@ random ID (e.g. Republican may be replaced with "ent12", "Democrat" with
 document to answer the question. For example, a model may be able to answer:
 "Most Americans do not identify as Democrats or X" without reading the
 document, but it certainly will not be able to answer "Most ent243 do not
-identify as ent893 or X" without reading the document.
+identify as ent93 or X" without reading the document.
 
 \section{Models}
 We have two simple baselines. The maximum frequency baseline just picks the
@@ -86,12 +87,13 @@ query/document delimiter $||$, we get:
   & h(t, k) = o(t, k) \tanh(c(t, k)) \\
   & y'(t, k) = W_{ky} h(t, k) + b_{ky} \\
   & y(t) = y'(t, 1) || ... || y'(t, K) \\
-  & g^{LSTM}(d, q) = y(|d| + |q|) \text{ (joint embedding)
+  & g^{LSTM}(d, q) = y(|d| + |q|) \text{ (joint embedding)}
 \end{align}
 
 The fixed-size hidden vector in the Deep LSTM is limiting, so we also create
-another model we call the Attentive Reader. It has a bidirectional LSTM
-and has the following equestions:
+another model we call the Attentive Reader. It has a bidirectional LSTM and
+attention mechanism. It has the following equations (the arrow accents indicate
+output from the forward or backward LSTM):
 
 \begin{align}
   & u = \overrightarrow{y}_q(|q|) + \overleftarrow{y}_q(1) \text{ (query embedding)}\\
@@ -102,7 +104,7 @@ and has the following equestions:
   & g^{AR}(d, q) = \tanh(W_{rg} r + W_{ug} u) \text{ (joint embedding)}
 \end{align}
 
-We can also create a model called the Inattentive reader that accumulates
+We can also create a model called the Inattentive Reader that accumulates
 information while it reads the query and attends to different pieces of
 the document:
 
