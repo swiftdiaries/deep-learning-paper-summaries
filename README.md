@@ -110,6 +110,9 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/LimitsOfLanguageModeling/LimitsOfLanguageModeling.pdf) Exploring the limits of language modeling (2016), R. Jozefowicz et al.
 
+# Speech / Other Domain
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/AcousticDeepBelief/AcousticDeepBelief.pdf) Acoustic modeling using deep belief networks (2012), A. Mohamed et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
