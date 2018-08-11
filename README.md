@@ -116,6 +116,9 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/AcousticDeepBelief/AcousticDeepBelief.pdf) Acoustic modeling using deep belief networks (2012), A. Mohamed et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/CD_DNN_HMM/CD_DNN_HMM.pdf) Context-dependent pre-trained deep neural networks for large-vocabulary speech recognition (2012) G. Dahl et al.
+
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
