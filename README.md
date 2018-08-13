@@ -120,6 +120,7 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/AcousticFourGroups/AcousticFourGroups.pdf) Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups (2012), G. Hinton et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/SpeechRNN/SpeechRNN.pdf) Speech recognition with deep recurrent neural networks (2013), A. Graves
 
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
