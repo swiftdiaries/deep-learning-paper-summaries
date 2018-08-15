@@ -124,6 +124,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/DeepSpeech2/DeepSpeech2.pdf) Deep speech 2: End-to-end speech recognition in English and Mandarin (2015), D. Amodei et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/AttentionSpeech/AttentionSpeech.pdf) End-to-end attention-based large vocabulary speech recognition (2016), D. Bahdanau et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
