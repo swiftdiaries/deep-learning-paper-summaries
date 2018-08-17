@@ -126,6 +126,12 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/AttentionSpeech/AttentionSpeech.pdf) End-to-end attention-based large vocabulary speech recognition (2016), D. Bahdanau et al.
 
+# Understanding / Generalization / Transfer
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/DeCAF/DeCAF.pdf) Decaf: A deep convolutional activation feature for generic visual recognition (2014), J. Donahue et al.
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/VisualizeAlexNet/VisualizeAlexNet.pdf) Visualizing and understanding convolutional networks (2014), M. Zeiler and R. Fergus
+
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
