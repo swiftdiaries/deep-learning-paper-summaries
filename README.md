@@ -133,6 +133,7 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/TransferCNN/TransferCNN.pdf) Learning and transferring mid-Level image representations using convolutional neural networks (2014), M. Oquab et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/CNNOffTheShelf/CNNOffTheShelf.pdf) CNN features off-the-Shelf: An astounding baseline for recognition (2014), A. Razavian et al.
 
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
