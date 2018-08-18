@@ -131,6 +131,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/VisualizeAlexNet/VisualizeAlexNet.pdf) Visualizing and understanding convolutional networks (2014), M. Zeiler and R. Fergus
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/TransferCNN/TransferCNN.pdf) Learning and transferring mid-Level image representations using convolutional neural networks (2014), M. Oquab et al.
+
 
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
