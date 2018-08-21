@@ -137,6 +137,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/TransferDNNFeatures/TransferDNNFeatures.pdf) How transferable are features in deep neural networks? (2014), J. Yosinski et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/FoolDNN/FoolDNN.pdf) Deep neural networks are easily fooled: High confidence predictions for unrecognizable images (2015), A. Nguyen et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
