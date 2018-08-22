@@ -141,6 +141,9 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/Distill/Distill.pdf) Distilling the knowledge in a neural network (2015), G. Hinton et al.
 
+# Optimization / Training Techniques
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/RandomSearch/RandomSearch.pdf) Random search for hyper-parameter optimization (2012) J. Bergstra and Y. Bengio
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
