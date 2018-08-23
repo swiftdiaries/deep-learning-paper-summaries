@@ -144,6 +144,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 # Optimization / Training Techniques
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/RandomSearch/RandomSearch.pdf) Random search for hyper-parameter optimization (2012) J. Bergstra and Y. Bengio
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/CoAdapt/CoAdapt.pdf) Improving neural networks by preventing co-adaptation of feature detectors (2012), G. Hinton et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
