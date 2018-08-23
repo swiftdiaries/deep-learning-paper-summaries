@@ -146,6 +146,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/CoAdapt/CoAdapt.pdf) Improving neural networks by preventing co-adaptation of feature detectors (2012), G. Hinton et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/Adam/Adam.pdf) Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
