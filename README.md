@@ -150,6 +150,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/Dropout/Dropout.pdf) Dropout: A simple way to prevent neural networks from overfitting (2014), N. Srivastava et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/PReLU/PReLU.pdf) Delving deep into rectifiers: Surpassing human-level performance on imagenet classification (2015), K. He et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
