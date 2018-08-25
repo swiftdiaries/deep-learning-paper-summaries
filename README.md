@@ -154,6 +154,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/BatchNorm/BatchNorm.pdf) Batch normalization: Accelerating deep network training by reducing internal covariate shift (2015), S. Loffe and C. Szegedy
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/Highway/Highway.pdf) Training very deep networks (2015), R. Srivastava et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
