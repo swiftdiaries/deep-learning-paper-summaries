@@ -156,6 +156,10 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/Highway/Highway.pdf) Training very deep networks (2015), R. Srivastava et al.
 
+# Unsupervised / Generative Models
+
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/HighLevelFeatures/HighLevelFeatures.pdf) Building high-level features using large scale unsupervised learning (2013), Q. Le et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
