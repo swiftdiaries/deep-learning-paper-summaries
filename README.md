@@ -160,6 +160,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/HighLevelFeatures/HighLevelFeatures.pdf) Building high-level features using large scale unsupervised learning (2013), Q. Le et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/AutoencodingVariationalBayes/AutoencodingVariationalBayes.pdf) Auto-encoding variational Bayes (2013), D. Kingma and M. Welling
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
