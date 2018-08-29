@@ -162,6 +162,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/AutoencodingVariationalBayes/AutoencodingVariationalBayes.pdf) Auto-encoding variational Bayes (2013), D. Kingma and M. Welling
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/GAN/GAN.pdf) Generative adversarial nets (2014), I. Goodfellow et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 

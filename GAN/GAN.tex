@@ -1,0 +1,102 @@
+\documentclass[a4paper]{article}
+
+\usepackage{fullpage} % Package to use full page
+\usepackage{parskip} % Package to tweak paragraph skipping
+\usepackage{amssymb}
+\usepackage{tikz} % Package for drawing
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{bm}
+
+\title{Generative Adversarial Nets}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Citation}
+Goodfellow, Ian, et al. "Generative adversarial nets." Advances in neural information processing systems. 2014.
+
+\begin{verbatim}
+http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf
+\end{verbatim}
+
+\section{Abstract}
+By making a generator network $G$ that generates examples aiming to fool
+a discriminator network $D$ that aims to distinguish between real and fake
+examples, we can train powerful generative models.
+
+\section{Introduction}
+It has been hard to train deep generative models. Generative Adversarial Nets
+(GANs) can be trained with regular backpropagation and dropout.
+
+\section{Related Work}
+Prior work on deep models makes them estimate the parameters of a probability
+distribution, which enables us to maximize the log-likelihood of the data.
+Restricted Boltzmann Machines (RBMs) and Generative Stochastic Networks are
+examples of such models. Variational Autoencoders (VAE), like GANs, have a
+generative model, but they use a recognition model instead of a discriminator
+model. VAEs can model binary outputs but cannot model binary latent variables
+- GANs are the opposite. Noise Contrastive Estimation (NCE) uses a
+discriminative model to distinguish between noise and the real dataset. If the
+noise distribution is actually a generative model, you can use this framework
+to train successively better generative models. Predictability minimization
+also makes two networks compete, but our approach is a more general competitive
+framework. A GAN is a minimax game where the generator and discriminator push
+an objective function in opposite directions. GANs are not the same thing as
+adversarial examples, which are inputs designed to make a neural net predict
+the wrong class output.
+
+\section{Adversarial Nets}
+The input to the generator is noise vector $\bm{z} \sim p_{\bm{z}}(\bm{z})$.
+Our minimax game is:
+
+\begin{align}
+  \min_{G}{\max_{D}{
+    V(D, G) = \mathbb{E}_{\bm{x} \sim p_{data}(\bm{x})}[\log{D(\bm{x})}]
+    + \mathbb{E}_{\bm{z} \sim p_{\bm{z}}(\bm{z})}[
+    \log{(1 - D(G(\bm{z})))}
+    ]
+  }}
+\end{align}
+
+We optimize this function by training $D$ for $k$ steps, training $G$ for one
+step, and repeating. Early in training, $G$ is poor so
+$\log{(1 - D(G(\bm{z})))}$ saturates. Thus, at the start of training, $G$
+instead maximizes $\log{D(G(\bm{z}))}$
+
+\section{Theoretical Results}
+For a fixed $G$, the optimal discriminator is:
+
+\begin{align}
+  D^*_{G}(\bm{x}) = \frac{p_{data}(\bm{x})}{p_{data}(\bm{x}) + p_g(\bm{x})}
+\end{align}
+
+The value $C(G) = \max_{D}{V(G, D)}$ is maximized when $p_g = p_{data}$. If our
+model is sufficiently high capacity, our algorithm will converge.
+
+\section{Experiments}
+We train GANs on MNIST, Toronto Faces, and CIFAR-10. The generator used
+ReLU and sigmoid activations while the discriminator uses maxout activations.
+We use dropout for training the discriminator. The generator's input is noise.
+Our generator can create examples, but can't compute the probability density of
+those examples. We fit a Gaussian Parzen Window to the generator outputs for
+this purpose. It doesn't work great in high dimensional spaces and has high
+variance, but it's the best we can do.
+
+\section{Advantages and Disadvantages}
+There's no explicit representation of $p_g(\bm{x})$. It can be tricky to train
+the generator and discriminator in sync. To avoid a situation where $G$
+collapses a bunch of different $\bm{z}$ values into a single $\bm{x}$, we need
+to train $D$ for $k$ steps each time we train $G$ for one step. However,
+GANs are much more computationally cheaper than Markov Chain Monte Carlo and
+they can represent spiky distributions.
+
+\section{Conclusions and Future Work}
+You can a conditional generative model (i.e. one that generates inputs based
+on vector $\bm{c}$). You could train a network to predict $\bm{z}$ given
+$\bm{x}$. Maybe the features learned from the discriminator and generator
+could help in supervised learning tasks where the dataset is small.
+
+\end{document}
