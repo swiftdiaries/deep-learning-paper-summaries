@@ -166,6 +166,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/VAE/VAE.pdf) Tutorial on variational autoencoders (2016), C. Doersch
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/DRAW/DRAW.pdf) DRAW: A recurrent neural network for image generation (2015), K. Gregor et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
