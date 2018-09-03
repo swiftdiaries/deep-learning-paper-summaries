@@ -170,6 +170,8 @@ The summaries assume you have read this book: http://www.deeplearningbook.org/
 
 [Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/ImprovedGAN/ImprovedGAN.pdf) Improved techniques for training GANs (2016), T. Salimans et al.
 
+[Summary](https://github.com/hariharsubramanyam/deep-learning-paper-summaries/blob/master/PixelRNN/PixelRNN.pdf) Pixel recurrent neural networks (2016), A. Oord et al.
+
 # Other Interesting Papers (might read/summarize them later)
 [RetinaNet](https://arxiv.org/pdf/1708.02002.pdf)
 
